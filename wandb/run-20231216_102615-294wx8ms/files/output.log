@@ -1,0 +1,22 @@
+1/1 [==============================] - 0s 30ms/step
+initialize_wandb	 mae	 mse	 plot_model	 plot_predictions	 reset_model	
+Help on function plot_predictions in module __main__:
+plot_predictions(train_data=<tf.Tensor: shape=(40,), dtype=int32, numpy=
+array([-100,  -96,  -92,  -88,  -84,  -80,  -76,  -72,  -68,  -64,  -60,
+        -56,  -52,  -48,  -44,  -40,  -36,  -32,  -28,  -24,  -20,  -16,
+        -12,   -8,   -4,    0,    4,    8,   12,   16,   20,   24,   28,
+         32,   36,   40,   44,   48,   52,   56], dtype=int32)>, train_labels=<tf.Tensor: shape=(40,), dtype=int32, numpy=
+array([-90, -86, -82, -78, -74, -70, -66, -62, -58, -54, -50, -46, -42,
+       -38, -34, -30, -26, -22, -18, -14, -10,  -6,  -2,   2,   6,  10,
+        14,  18,  22,  26,  30,  34,  38,  42,  46,  50,  54,  58,  62,
+        66], dtype=int32)>, test_data=<tf.Tensor: shape=(10,), dtype=int32, numpy=array([60, 64, 68, 72, 76, 80, 84, 88, 92, 96], dtype=int32)>, test_labels=<tf.Tensor: shape=(10,), dtype=int32, numpy=array([ 70,  74,  78,  82,  86,  90,  94,  98, 102, 106], dtype=int32)>, predictions=array([[ 91.2572  ],
+       [ 97.21643 ],
+       [103.175644],
+       [109.134865],
+       [115.09408 ],
+       [121.05328 ],
+       [127.01251 ],
+       [132.97173 ],
+       [138.93094 ],
+       [144.89015 ]], dtype=float32))
+    Plots training data, test data and compares predictions to ground truth
