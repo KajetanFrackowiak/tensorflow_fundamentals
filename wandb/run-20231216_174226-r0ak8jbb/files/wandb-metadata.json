@@ -1,0 +1,87 @@
+{
+    "os": "Linux-6.5.0-14-generic-x86_64-with-glibc2.38",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-12-16T16:42:34.083804",
+    "startedAt": "2023-12-16T16:42:26.346771",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "tensorflow_fundamentals/regression2.ipynb",
+    "codePathLocal": null,
+    "root": "/home/kajetan/tensorflow_fundamentals",
+    "git": {
+        "remote": "https://github.com/KajetanFrackowiak/tensorflow_fundamentals.git",
+        "commit": "b365f7a6188e764086036c3ce06a1de55846297a"
+    },
+    "email": "kajtek.gdynia@gmail.com",
+    "host": "kajetan-MS-7845",
+    "username": "kajetan",
+    "executable": "/home/kajetan/anaconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.92325,
+        "min": 800.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.712,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.745,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.705,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.702,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.702,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.837,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.7,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.703,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.59531021118164,
+            "used": 197.2746810913086
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.551769256591797
+    }
+}

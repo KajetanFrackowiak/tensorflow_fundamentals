@@ -1,0 +1,340 @@
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:01:46,161 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140146-6kxh6e0e/logs/debug.log
+2023-12-16 14:01:46,162 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140146-6kxh6e0e/logs/debug-internal.log
+2023-12-16 14:01:46,162 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:01:46,162 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:01:46,162 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:01:46,162 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:01:46,164 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:01:46,164 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:01:46,174 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:01:46,174 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:01:46,175 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:01:46,179 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:01:52,249 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:02:01,638 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140201-qbnznwph/logs/debug.log
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140201-qbnznwph/logs/debug-internal.log
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:02:01,639 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:02:01,640 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:02:01,640 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:02:01,649 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:02:01,649 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:02:01,649 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:02:01,653 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:02:56,067 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:03:14,302 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:03:14,302 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140314-o079kgf2/logs/debug.log
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140314-o079kgf2/logs/debug-internal.log
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:03:14,303 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:03:14,304 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:03:14,304 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:03:14,312 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:03:14,312 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:03:14,313 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:03:14,317 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:04:44,366 ERROR   MainThread:33205 [wandb_init.py:init():775] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-12-16 14:04:44,427 ERROR   MainThread:33205 [wandb_init.py:init():1184] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 781, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-12-16 14:07:25,902 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140725-byz4uai0/logs/debug.log
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140725-byz4uai0/logs/debug-internal.log
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:07:25,903 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:07:25,905 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:07:25,905 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:07:25,916 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:07:25,917 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:07:25,917 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:07:25,921 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:07:42,937 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:07:47,211 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:07:47,212 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:07:47,212 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140747-nqz9hf74/logs/debug.log
+2023-12-16 14:07:47,212 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140747-nqz9hf74/logs/debug-internal.log
+2023-12-16 14:07:47,212 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:07:47,212 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:07:47,213 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:07:47,213 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:07:47,215 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:07:47,215 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:07:47,224 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:07:47,224 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:07:47,225 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:07:47,229 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:08:59,740 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:09:08,540 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:09:08,540 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:09:08,541 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:09:08,541 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:09:08,541 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:09:08,541 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:09:08,541 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140908-ildpp7ul/logs/debug.log
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_140908-ildpp7ul/logs/debug-internal.log
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:09:08,542 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:09:08,544 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:09:08,544 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:09:08,552 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:09:08,553 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:09:08,554 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:09:08,557 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:09:43,996 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:10:07,959 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_141007-kagiasuf/logs/debug.log
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_141007-kagiasuf/logs/debug-internal.log
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:10:07,960 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:10:07,961 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:10:07,961 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:10:07,970 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:10:07,971 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:10:07,971 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:10:07,975 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:10:12,332 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-12-16 14:51:08,241 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-12-16 14:51:08,260 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Configure stats pid to 33205
+2023-12-16 14:51:08,260 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/.config/wandb/settings
+2023-12-16 14:51:08,260 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from /home/kajetan/tensorflow_fundamentals/wandb/settings
+2023-12-16 14:51:08,261 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-16 14:51:08,261 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-16 14:51:08,261 INFO    MainThread:33205 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-16 14:51:08,261 INFO    MainThread:33205 [wandb_init.py:_log_setup():524] Logging user logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_145108-0gaq6t45/logs/debug.log
+2023-12-16 14:51:08,262 INFO    MainThread:33205 [wandb_init.py:_log_setup():525] Logging internal logs to /home/kajetan/tensorflow_fundamentals/wandb/run-20231216_145108-0gaq6t45/logs/debug-internal.log
+2023-12-16 14:51:08,262 INFO    MainThread:33205 [wandb_init.py:init():564] calling init triggers
+2023-12-16 14:51:08,262 INFO    MainThread:33205 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-16 14:51:08,262 INFO    MainThread:33205 [wandb_init.py:init():614] starting backend
+2023-12-16 14:51:08,262 INFO    MainThread:33205 [wandb_init.py:init():618] setting up manager
+2023-12-16 14:51:08,264 INFO    MainThread:33205 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-16 14:51:08,265 INFO    MainThread:33205 [wandb_init.py:init():624] backend started and connected
+2023-12-16 14:51:08,274 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-16 14:51:08,274 INFO    MainThread:33205 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-16 14:51:08,274 INFO    MainThread:33205 [wandb_init.py:init():716] updated telemetry
+2023-12-16 14:51:08,280 INFO    MainThread:33205 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-16 14:52:05,561 WARNING MainThread:33205 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+              ^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajetan/anaconda3/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

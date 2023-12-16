@@ -1,0 +1,263 @@
+Epoch 1/100
+34/34 [==============================] - 0s 1ms/step - loss: 8543.3877 - mae: 8543.3877
+Epoch 2/100
+34/34 [==============================] - 0s 899us/step - loss: 7833.5171 - mae: 7833.5171
+Epoch 3/100
+34/34 [==============================] - 0s 891us/step - loss: 7600.6206 - mae: 7600.6206
+Epoch 4/100
+34/34 [==============================] - 0s 905us/step - loss: 7685.8262 - mae: 7685.8262
+Epoch 5/100
+34/34 [==============================] - 0s 872us/step - loss: 7672.8545 - mae: 7672.8545
+Epoch 6/100
+34/34 [==============================] - 0s 892us/step - loss: 7574.5654 - mae: 7574.5654
+Epoch 7/100
+34/34 [==============================] - 0s 874us/step - loss: 7564.0776 - mae: 7564.0776
+Epoch 8/100
+34/34 [==============================] - 0s 904us/step - loss: 7788.9912 - mae: 7788.9912
+Epoch 9/100
+34/34 [==============================] - 0s 967us/step - loss: 7574.6309 - mae: 7574.6309
+Epoch 10/100
+34/34 [==============================] - 0s 908us/step - loss: 7648.7759 - mae: 7648.7759
+Epoch 11/100
+34/34 [==============================] - 0s 918us/step - loss: 7423.8662 - mae: 7423.8662
+Epoch 12/100
+34/34 [==============================] - 0s 845us/step - loss: 7491.6167 - mae: 7491.6167
+Epoch 13/100
+34/34 [==============================] - 0s 2ms/step - loss: 7689.5767 - mae: 7689.5767
+Epoch 14/100
+34/34 [==============================] - 0s 874us/step - loss: 7645.9761 - mae: 7645.9761
+Epoch 15/100
+34/34 [==============================] - 0s 861us/step - loss: 7481.5361 - mae: 7481.5361
+Epoch 16/100
+34/34 [==============================] - 0s 875us/step - loss: 7739.7764 - mae: 7739.7764
+Epoch 17/100
+34/34 [==============================] - 0s 895us/step - loss: 7542.7690 - mae: 7542.7690
+Epoch 18/100
+34/34 [==============================] - 0s 908us/step - loss: 7779.6250 - mae: 7779.6250
+Epoch 19/100
+34/34 [==============================] - 0s 940us/step - loss: 7584.7124 - mae: 7584.7124
+Epoch 20/100
+34/34 [==============================] - 0s 907us/step - loss: 7867.2544 - mae: 7867.2544
+Epoch 21/100
+34/34 [==============================] - 0s 876us/step - loss: 7513.9019 - mae: 7513.9019
+Epoch 22/100
+34/34 [==============================] - 0s 893us/step - loss: 7542.1992 - mae: 7542.1992
+Epoch 23/100
+34/34 [==============================] - 0s 898us/step - loss: 7597.2666 - mae: 7597.2666
+Epoch 24/100
+34/34 [==============================] - 0s 895us/step - loss: 7304.6304 - mae: 7304.6304
+Epoch 25/100
+34/34 [==============================] - 0s 928us/step - loss: 7678.1577 - mae: 7678.1577
+Epoch 26/100
+34/34 [==============================] - 0s 847us/step - loss: 7650.5874 - mae: 7650.5874
+Epoch 27/100
+34/34 [==============================] - 0s 940us/step - loss: 7395.5176 - mae: 7395.5176
+Epoch 28/100
+34/34 [==============================] - 0s 915us/step - loss: 7532.9292 - mae: 7532.9292
+Epoch 29/100
+34/34 [==============================] - 0s 913us/step - loss: 7645.3887 - mae: 7645.3887
+Epoch 30/100
+34/34 [==============================] - 0s 902us/step - loss: 7515.6260 - mae: 7515.6260
+Epoch 31/100
+34/34 [==============================] - 0s 931us/step - loss: 7376.9941 - mae: 7376.9941
+Epoch 32/100
+34/34 [==============================] - 0s 903us/step - loss: 7452.4106 - mae: 7452.4106
+Epoch 33/100
+34/34 [==============================] - 0s 876us/step - loss: 7270.2769 - mae: 7270.2769
+Epoch 34/100
+34/34 [==============================] - 0s 859us/step - loss: 7505.5889 - mae: 7505.5889
+Epoch 35/100
+34/34 [==============================] - 0s 914us/step - loss: 7577.3848 - mae: 7577.3848
+Epoch 36/100
+34/34 [==============================] - 0s 937us/step - loss: 7397.6543 - mae: 7397.6543
+Epoch 37/100
+34/34 [==============================] - 0s 940us/step - loss: 7632.8872 - mae: 7632.8872
+Epoch 38/100
+34/34 [==============================] - 0s 926us/step - loss: 7598.5254 - mae: 7598.5254
+Epoch 39/100
+34/34 [==============================] - 0s 880us/step - loss: 7553.4727 - mae: 7553.4727
+Epoch 40/100
+34/34 [==============================] - 0s 909us/step - loss: 7364.8955 - mae: 7364.8955
+Epoch 41/100
+34/34 [==============================] - 0s 852us/step - loss: 7693.4414 - mae: 7693.4414
+Epoch 42/100
+34/34 [==============================] - 0s 888us/step - loss: 7359.5039 - mae: 7359.5039
+Epoch 43/100
+34/34 [==============================] - 0s 892us/step - loss: 7696.2134 - mae: 7696.2134
+Epoch 44/100
+34/34 [==============================] - 0s 885us/step - loss: 7507.8481 - mae: 7507.8481
+Epoch 45/100
+34/34 [==============================] - 0s 893us/step - loss: 7484.5278 - mae: 7484.5278
+Epoch 46/100
+34/34 [==============================] - 0s 891us/step - loss: 7383.5762 - mae: 7383.5762
+Epoch 47/100
+34/34 [==============================] - 0s 892us/step - loss: 7489.9614 - mae: 7489.9614
+Epoch 48/100
+34/34 [==============================] - 0s 899us/step - loss: 7279.5532 - mae: 7279.5532
+Epoch 49/100
+34/34 [==============================] - 0s 862us/step - loss: 7534.0664 - mae: 7534.0664
+Epoch 50/100
+34/34 [==============================] - 0s 848us/step - loss: 7460.1899 - mae: 7460.1899
+Epoch 51/100
+34/34 [==============================] - 0s 857us/step - loss: 7404.3252 - mae: 7404.3252
+Epoch 52/100
+34/34 [==============================] - 0s 856us/step - loss: 7519.1235 - mae: 7519.1235
+Epoch 53/100
+34/34 [==============================] - 0s 876us/step - loss: 7615.8403 - mae: 7615.8403
+Epoch 54/100
+34/34 [==============================] - 0s 869us/step - loss: 7332.2729 - mae: 7332.2729
+Epoch 55/100
+34/34 [==============================] - 0s 981us/step - loss: 7303.0874 - mae: 7303.0874
+Epoch 56/100
+34/34 [==============================] - 0s 892us/step - loss: 7237.8779 - mae: 7237.8779
+Epoch 57/100
+34/34 [==============================] - 0s 890us/step - loss: 7364.6680 - mae: 7364.6680
+Epoch 58/100
+34/34 [==============================] - 0s 909us/step - loss: 7596.4038 - mae: 7596.4038
+Epoch 59/100
+34/34 [==============================] - 0s 914us/step - loss: 7313.1113 - mae: 7313.1113
+Epoch 60/100
+34/34 [==============================] - 0s 849us/step - loss: 7441.5220 - mae: 7441.5220
+Epoch 61/100
+34/34 [==============================] - 0s 923us/step - loss: 7606.3735 - mae: 7606.3735
+Epoch 62/100
+34/34 [==============================] - 0s 876us/step - loss: 7329.4976 - mae: 7329.4976
+Epoch 63/100
+34/34 [==============================] - 0s 863us/step - loss: 7317.8994 - mae: 7317.8994
+Epoch 64/100
+34/34 [==============================] - 0s 888us/step - loss: 7317.8057 - mae: 7317.8057
+Epoch 65/100
+34/34 [==============================] - 0s 926us/step - loss: 7436.2925 - mae: 7436.2925
+Epoch 66/100
+34/34 [==============================] - 0s 862us/step - loss: 7271.2690 - mae: 7271.2690
+Epoch 67/100
+34/34 [==============================] - 0s 876us/step - loss: 7242.6445 - mae: 7242.6445
+Epoch 68/100
+34/34 [==============================] - 0s 944us/step - loss: 7528.7974 - mae: 7528.7974
+Epoch 69/100
+34/34 [==============================] - 0s 926us/step - loss: 7550.3833 - mae: 7550.3833
+Epoch 70/100
+34/34 [==============================] - 0s 917us/step - loss: 7676.0122 - mae: 7676.0122
+Epoch 71/100
+34/34 [==============================] - 0s 955us/step - loss: 7272.9883 - mae: 7272.9883
+Epoch 72/100
+34/34 [==============================] - 0s 918us/step - loss: 7334.4937 - mae: 7334.4937
+Epoch 73/100
+34/34 [==============================] - 0s 958us/step - loss: 7287.2988 - mae: 7287.2988
+Epoch 74/100
+34/34 [==============================] - 0s 949us/step - loss: 7178.0483 - mae: 7178.0483
+Epoch 75/100
+34/34 [==============================] - 0s 871us/step - loss: 7319.2583 - mae: 7319.2583
+Epoch 76/100
+34/34 [==============================] - 0s 874us/step - loss: 7223.5366 - mae: 7223.5366
+Epoch 77/100
+34/34 [==============================] - 0s 1ms/step - loss: 7307.7026 - mae: 7307.7026
+Epoch 78/100
+34/34 [==============================] - 0s 1ms/step - loss: 7360.7949 - mae: 7360.7949
+Epoch 79/100
+34/34 [==============================] - 0s 887us/step - loss: 7597.7485 - mae: 7597.7485
+Epoch 80/100
+34/34 [==============================] - 0s 884us/step - loss: 7307.2031 - mae: 7307.2031
+Epoch 81/100
+34/34 [==============================] - 0s 936us/step - loss: 7229.5239 - mae: 7229.5239
+Epoch 82/100
+34/34 [==============================] - 0s 882us/step - loss: 7165.2754 - mae: 7165.2754
+Epoch 83/100
+34/34 [==============================] - 0s 868us/step - loss: 7457.1343 - mae: 7457.1343
+Epoch 84/100
+34/34 [==============================] - 0s 883us/step - loss: 7039.2378 - mae: 7039.2378
+Epoch 85/100
+34/34 [==============================] - 0s 838us/step - loss: 7484.2500 - mae: 7484.2500
+Epoch 86/100
+34/34 [==============================] - 0s 880us/step - loss: 7501.0630 - mae: 7501.0630
+Epoch 87/100
+34/34 [==============================] - 0s 956us/step - loss: 7261.7109 - mae: 7261.7109
+Epoch 88/100
+34/34 [==============================] - 0s 865us/step - loss: 7411.7144 - mae: 7411.7144
+Epoch 89/100
+34/34 [==============================] - 0s 823us/step - loss: 7461.2153 - mae: 7461.2153
+Epoch 90/100
+34/34 [==============================] - 0s 871us/step - loss: 7178.0327 - mae: 7178.0327
+Epoch 91/100
+34/34 [==============================] - 0s 888us/step - loss: 7200.8462 - mae: 7200.8462
+Epoch 92/100
+34/34 [==============================] - 0s 888us/step - loss: 7247.3438 - mae: 7247.3438
+Epoch 93/100
+34/34 [==============================] - 0s 881us/step - loss: 7537.7573 - mae: 7537.7573
+Epoch 94/100
+34/34 [==============================] - 0s 888us/step - loss: 7081.1699 - mae: 7081.1699
+Epoch 95/100
+34/34 [==============================] - 0s 877us/step - loss: 7287.3315 - mae: 7287.3315
+Epoch 96/100
+34/34 [==============================] - 0s 921us/step - loss: 7098.2061 - mae: 7098.2061
+Epoch 97/100
+34/34 [==============================] - 0s 885us/step - loss: 7295.1216 - mae: 7295.1216
+Epoch 98/100
+34/34 [==============================] - 0s 857us/step - loss: 7347.8950 - mae: 7347.8950
+Epoch 99/100
+34/34 [==============================] - 0s 853us/step - loss: 7160.4395 - mae: 7160.4395
+Epoch 100/100
+34/34 [==============================] - 0s 915us/step - loss: 7150.6040 - mae: 7150.6040
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_test_function.<locals>.test_function at 0x7f961834bb00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+9/9 [==============================] - 0s 1ms/step - loss: 7384.5352 - mae: 7384.5352
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_test_function.<locals>.test_function at 0x7f961834bb00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Collecting tensorflow_probability
+  Downloading tensorflow_probability-0.23.0-py2.py3-none-any.whl (6.9 MB)
+     [38m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m6.9/6.9 MB[39m [31m5.3 MB/s[39m eta [36m0:00:00
+[?25hRequirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Collecting dm-tree (from tensorflow_probability)
+  Downloading dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (152 kB)
+     [38m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m152.8/152.8 kB[39m [31m6.5 MB/s[39m eta [36m0:00:00
+
+[?25hInstalling collected packages: dm-tree, tensorflow_probability
+Successfully installed dm-tree-0.1.8 tensorflow_probability-0.23.0
+Requirement already satisfied: tensorflow_probability in /home/kajetan/anaconda3/lib/python3.11/site-packages (0.23.0)
+Requirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Requirement already satisfied: dm-tree in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.1.8)
+Requirement already satisfied: tensorflow_probability in /home/kajetan/anaconda3/lib/python3.11/site-packages (0.23.0)
+Requirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Requirement already satisfied: dm-tree in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.1.8)
+Requirement already satisfied: tensorflow_probability in /home/kajetan/anaconda3/lib/python3.11/site-packages (0.23.0)
+Requirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Requirement already satisfied: dm-tree in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.1.8)
+Requirement already satisfied: tensorflow_probability in /home/kajetan/anaconda3/lib/python3.11/site-packages (0.23.0)
+Requirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Requirement already satisfied: dm-tree in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.1.8)
+Requirement already satisfied: tensorflow_probability in /home/kajetan/anaconda3/lib/python3.11/site-packages (0.23.0)
+Requirement already satisfied: absl-py in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.4.0)
+Requirement already satisfied: six>=1.10.0 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (1.26.2)
+Requirement already satisfied: decorator in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (5.1.1)
+Requirement already satisfied: cloudpickle>=1.3 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (2.2.1)
+Requirement already satisfied: gast>=0.3.2 in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.4.0)
+Requirement already satisfied: dm-tree in /home/kajetan/anaconda3/lib/python3.11/site-packages (from tensorflow_probability) (0.1.8)
+50th Percentile (Median): 9575.442
+9/9 [==============================] - 0s 978us/step
+9/9 [==============================] - 0s 999us/step
+9/9 [==============================] - 0s 978us/step
+9/9 [==============================] - 0s 861us/step
