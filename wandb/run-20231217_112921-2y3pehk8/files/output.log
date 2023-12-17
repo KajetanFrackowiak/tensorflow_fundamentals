@@ -1,0 +1,12 @@
+2023-12-17 11:29:35.756734: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:104] Profiler session initializing.
+2023-12-17 11:29:35.756762: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:119] Profiler session started.
+2023-12-17 11:29:35.758449: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:131] Profiler session tear down.
+2023-12-17 11:29:35.758547: I external/local_xla/xla/backends/profiler/gpu/cupti_tracer.cc:2017] CUPTI activity buffer flushed
+2023-12-17 11:29:35.842404: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:104] Profiler session initializing.
+2023-12-17 11:29:35.842431: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:119] Profiler session started.
+2023-12-17 11:29:36.151776: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:70] Profiler session collecting data.
+2023-12-17 11:29:36.152036: I external/local_xla/xla/backends/profiler/gpu/cupti_tracer.cc:2017] CUPTI activity buffer flushed
+2023-12-17 11:29:36.156880: I external/local_xla/xla/backends/profiler/gpu/cupti_collector.cc:541]  GpuTracer has collected 0 callback api events and 0 activity events.
+2023-12-17 11:29:36.158032: I external/local_tsl/tsl/profiler/lib/profiler_session.cc:131] Profiler session tear down.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0007s vs `on_train_batch_end` time: 0.0055s). Check your callbacks.
+32/32 [==============================] - 0s 857us/step - loss: 0.6924 - accuracy: 0.5030
