@@ -1,0 +1,10 @@
+nlp_getting_started.zip*
+insurance.csv
+test.csv
+train.csv
+wandb/
+model_logs/
+logs/fit/train/
+_MACOSX/
+__pycache__/
+
